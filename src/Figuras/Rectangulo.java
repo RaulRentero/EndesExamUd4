@@ -1,3 +1,5 @@
+package Figuras;
+
 public class Rectangulo extends GestorFiguras implements Figuras {
 
     private final double ancho;

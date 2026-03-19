@@ -1,3 +1,7 @@
+import Figuras.Rectangulo;
+import Figuras.Triangulo;
+import Figuras.GestorFiguras;
+
 public class Main {
 
     public static void main(String[] args) {

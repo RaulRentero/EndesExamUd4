@@ -1,3 +1,5 @@
+package Figuras;
+
 public class Triangulo extends GestorFiguras implements Figuras {
 
     private final double base;

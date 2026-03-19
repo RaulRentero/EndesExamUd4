@@ -1,3 +1,5 @@
+package Figuras;
+
 public class Circulo extends GestorFiguras implements Figuras {
 
     public static final double PI = 3.1416;
