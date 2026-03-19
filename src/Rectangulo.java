@@ -1,7 +1,7 @@
 public class Rectangulo {
 
-    public double ancho;
-    public double alto;
+    private final double ancho;
+    private final double alto;
 
     public Rectangulo(double ancho, double alto) {
         this.ancho = ancho;

@@ -1,10 +1,10 @@
 public class Triangulo {
 
-    public double base;
-    public double altura;
-    public double lado1;
-    public double lado2;
-    public double lado3;
+    private final double base;
+    private final double altura;
+    private final double lado1;
+    private final double lado2;
+    private final double lado3;
 
     public Triangulo(double base, double altura, double l1, double l2, double l3) {
         this.base = base;
