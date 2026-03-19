@@ -3,21 +3,21 @@ package Figuras;
 import java.util.ArrayList;
 
 public class GestorFiguras {
-    //Clase padre que gestiona a las figuras//
 
+    /**Clase padre que gestiona a las figuras**/
     private final ArrayList<Object> figuras;
 
-    //constructor//
+    /**constructor**/
     public GestorFiguras() {
         figuras = new ArrayList<>();
     }
 
-    //Agrega una figura a un Array List//
+    /**Agrega una figura a un Array List**/
     public void agregarFigura(Object figura) {
         figuras.add(figura);
     }
 
-    //Imprime el area de las figuras en la lista//
+    /**Imprime el area de las figuras en la lista**/
     public void mostrarAreas() {
 
         for (Object figura : figuras) {
@@ -36,9 +36,8 @@ public class GestorFiguras {
         }
     }
 
-    //Imprime el perimetro de las figuras de la lista//
+    /**Imprime el perimetro de las figuras de la lista**/
     public void mostrarPerimetros() {
-
         for (Object figura : figuras) {
 
             if (figura instanceof Circulo circulo) {
@@ -55,9 +54,8 @@ public class GestorFiguras {
         }
     }
 
-    //Dibuja todas las figuras de una lista//
+    /**Dibuja todas las figuras de una lista**/
     public void dibujarTodo() {
-
         for (Object figura : figuras) {
 
             if (figura instanceof Circulo) {
