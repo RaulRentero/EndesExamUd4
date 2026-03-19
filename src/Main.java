@@ -1,3 +1,4 @@
+import Figuras.Circulo;
 import Figuras.Rectangulo;
 import Figuras.Triangulo;
 import Figuras.GestorFiguras;
