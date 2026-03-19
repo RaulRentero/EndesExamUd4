@@ -1,5 +1,6 @@
 public class Circulo extends GestorFiguras implements Figuras {
 
+    public static final double PI = 3.1416;
     private final double radio;
 
     public Circulo(double radio) {
@@ -7,11 +8,11 @@ public class Circulo extends GestorFiguras implements Figuras {
     }
 
     public double calcularArea() {
-        return 3.1416 * radio * radio;
+        return PI * radio * radio;
     }
 
     public double calcularPerimetro() {
-        return 2 * 3.1416 * radio;
+        return 2 * PI * radio;
     }
 
     public void dibujar() {
