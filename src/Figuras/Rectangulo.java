@@ -1,5 +1,6 @@
 package Figuras;
 
+/**Figura de tipo rectangulo**/
 public class Rectangulo extends GestorFiguras implements Figuras {
 
     /**Atributo del rectangulo**/

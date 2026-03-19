@@ -2,9 +2,10 @@ package Figuras;
 
 import java.util.ArrayList;
 
+/**Clase padre que gestiona a las figuras**/
 public class GestorFiguras {
 
-    /**Clase padre que gestiona a las figuras**/
+    /**Lista de la clase padre (en donde se guardan las diferentes figuras)**/
     private final ArrayList<Object> figuras;
 
     /**constructor**/

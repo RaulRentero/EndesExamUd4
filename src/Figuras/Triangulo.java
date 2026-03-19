@@ -1,5 +1,6 @@
 package Figuras;
 
+/**Figura de tipo triangulo**/
 public class Triangulo extends GestorFiguras implements Figuras {
 
     /**Atributo del triangulo**/

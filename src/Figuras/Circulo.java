@@ -1,5 +1,6 @@
 package Figuras;
 
+/**Figura de tipo circulo**/
 public class Circulo extends GestorFiguras implements Figuras {
 
     /**Atributo del cirulo**/
