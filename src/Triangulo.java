@@ -1,4 +1,4 @@
-public class Triangulo {
+public class Triangulo extends GestorFiguras implements Figuras {
 
     private final double base;
     private final double altura;

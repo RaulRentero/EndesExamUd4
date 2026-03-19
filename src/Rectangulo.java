@@ -1,4 +1,4 @@
-public class Rectangulo {
+public class Rectangulo extends GestorFiguras implements Figuras {
 
     private final double ancho;
     private final double alto;

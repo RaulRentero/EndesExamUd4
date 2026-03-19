@@ -1,4 +1,4 @@
-public class Circulo {
+public class Circulo extends GestorFiguras implements Figuras {
 
     private final double radio;
 
