@@ -1,6 +1,6 @@
 public class Circulo {
 
-    public double radio;
+    private final double radio;
 
     public Circulo(double radio) {
         this.radio = radio;
